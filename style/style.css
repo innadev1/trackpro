@@ -61,3 +61,9 @@ input:focus{
     display: -webkit-flex;
     display: flex;
 }
+@media screen and (max-width: 900px){
+button {
+    font-size: 3.5vw;
+    padding: 1vw 8vw;
+}	
+}

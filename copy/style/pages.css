@@ -1,0 +1,494 @@
+/*HEADER FOR PAGES*/
+#header{
+	background-color: #1f1f1f;
+	width: 100%;
+	height: 15vw;
+	text-align: center;
+	position: relative;
+	z-index: 3
+}
+.info-inside{
+	position: absolute;
+    bottom: 1vw;
+    margin-left: auto;
+    left: 0;
+    margin-right: auto;
+    right: 0;
+}
+.info-inside img{
+    height: 3vw;
+	margin-bottom: 1vw;
+}
+.info-inside h2{
+	margin: 0;
+	color: white;
+	font-size: 1.6vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/*MAP AND ANIMATION*/
+.col-flex{
+	height: 35vw;
+	position: relative
+}
+.col-flex .first{
+	background-image: url(../img/map.jpg);
+    background-size: 101%;
+    background-repeat: no-repeat;
+	width: 75%;
+    height: 100%;
+}
+.col-flex .first p{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    top: 27vw;
+}
+.col-flex .second{
+	width: auto;
+    height: 100%;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+.col-flex .second img{
+	width: 2.2vw;
+}
+.col-flex .second h2{
+	margin: 0;
+	font-size: 1.5vw;
+	font-weight: 400;
+	margin-bottom: 2vw;
+	position: absolute;
+    top: 2vw;
+}
+.col-flex .second p{
+    width: 100%;
+    text-align: left;
+}
+.col-flex .first{
+	position: relative
+}
+.animation{
+	position: absolute;
+	width: 80%;
+	margin-left: auto;
+	left: 0;
+	margin-right: auto;
+	right: 0;
+	top:3vw;
+}
+.content-second{
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 22vw;
+    padding-left: 3vw;
+	height: auto
+}
+.content-second p{
+	font-size: 1.2vw !important
+}
+.content-second div{
+	width: 80%;
+	height: 4vw;
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.images-second{
+	width: 20% !important;
+}
+/*COLOURFUL BLOCKS*/
+.column{
+	width:100%
+}
+.col{
+	height: 100%;
+	width: 33.33333333%;
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative
+}
+.motorcycles   .col{
+	width: 50% !important;
+}
+.col h3{
+	margin: 0;
+	font-weight: 400;
+	font-size: 1.4vw
+}
+.col img{
+	width: 3vw;
+	margin: 0.5vw;
+}
+.icon-f{
+	width: 100%;
+	justify-content: space-evenly;
+}
+/*HEIGHTS FOR COLOURFUL BLOCKS*/
+.first-height{
+	height: 10vw;
+}
+.second-height{
+	height: 12vw;
+}
+/*HEADER LINES*/
+.header-line{
+	width: 100%;
+	height: 4vw;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f1f1f;
+}
+.header-line h3{
+	color: #f5c118;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+/*AUTO DIAGRAMM*/
+.auto{
+	background-image: url(../img/Shape-31.jpg);
+    background-size: contain;
+	background-position: 30%;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 35vw;
+	margin-bottom: 5vw;
+	color: black;
+	position: relative
+}
+.auto p{
+	margin: 0;
+	font-size: 1vw;
+}
+.auto h5{
+	margin: 0;
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+.text-1{
+	position: absolute;
+    top: 13vw;
+    width: 19vw;
+    left: 11vw;
+}
+.text-2{
+	position: absolute;
+    width: 45vw;
+    top: 6vw;
+    left: 39vw;
+}
+.text-3{
+	position: absolute;
+    width: 52vw;
+    top: 29vw;
+    left: 34vw;
+}
+.capt-1{
+	position: absolute;
+    top: 9.5vw;
+    left: 15vw;
+}
+.capt-2{
+	position: absolute;
+    top: 3vw;
+    left: 39vw;
+}
+.capt-3{
+	position: absolute;
+    top: 25.5vw;
+    right: 31vw;
+}
+/**/
+.auto.building{
+	background-image: url(../img/Shape-32.jpg);
+	background-size: contain;
+	background-size: 80%;
+    background-position-x: 10%;
+}
+.building .text-1{
+	position: absolute;
+    top: 10vw;
+    width: 23vw;
+    left: 74vw;
+    text-align: right;
+}
+.building .text-2{
+	position: absolute;
+    width: 45vw;
+    top: 7vw;
+    left: 10vw;
+}
+.building .text-3{
+	position: absolute;
+    width: 32vw;
+    top: 30vw;
+    left: 2vw;
+}
+.building .capt-1{
+	position: absolute;
+    top: 6vw;
+    left: 82vw;
+}
+.building .capt-2{
+	position: absolute;
+    top: 4vw;
+    left: 10vw;
+}
+.building .capt-3{
+	position: absolute;
+    top: 26.2vw;
+    right: 82vw;
+}
+/**/
+.auto.cars-{
+	background-image: url(../img/Shape-33.jpg);
+	background-size: contain;
+	background-size: 60%;
+    background-position-x: 30%;
+}
+.cars- .capt-1{
+	position: absolute;
+    top: 4vw;
+    left: 75vw;
+}
+.cars- .text-1{
+	position: absolute;
+    top: 7vw;
+    width: 20vw;
+    left: 68vw;
+    text-align: right;
+}
+.cars- .capt-4{
+	position: absolute;
+    top: 3vw;
+    left: 16vw;
+}
+.cars- .text-4{
+	position: absolute;
+    width: 28vw;
+    top: 6vw;
+    left: 16vw;
+}
+.cars- .capt-5{
+	position: absolute;
+    top: 11.5vw;
+    left: 16vw;
+}
+.cars- .text-5{
+	position: absolute;
+    width: 22vw;
+    top: 14.5vw;
+    left: 16vw;
+}
+.cars- .capt-6{
+	position: absolute;
+    top: 22.2vw;
+    left: 16vw;
+}
+.cars- .capt-7{
+	position: absolute;
+    top: 30.2vw;
+    right: 16vw;
+}
+/**/
+.auto.motorcycle{
+	background-image: url(../img/Shape-34.jpg) !important;
+    background-size: contain;
+    background-size: 61%;
+    background-position-x: 32%;
+    background-position-y: 40%;
+}
+.motorcycle .capt-1{
+	position: absolute;
+    top: 2vw;
+    left: 75vw;
+}
+.motorcycle .text-1{
+	position: absolute;
+    top: 5vw;
+    width: 20vw;
+    left: 68vw;
+    text-align: right;
+}
+.motorcycle .capt-7 {
+    position: absolute;
+    top: 29.2vw;
+    right: 13vw;
+}
+/*COLORS FOR BACKGROUNDS AND FONTS*/
+.yellow{
+	background-color: #f5c118;
+}
+.grey{
+	background-color: #555555;
+}
+.white{
+	background-color: white;
+}
+.black-t{
+	color: black;
+}
+.yellow-t{
+	color: #f5c118;
+}
+.white-t{
+	color: white !important
+}
+
+/*NEW BLOCK*/
+.benefits{
+	background-color: #1f1f1f;
+}
+.benefits div{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 1vw;
+}
+.ag-st{
+	height: 10vw;
+    width: 15%;
+    padding: 0 !important;
+}
+.ag-st img{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 2vw;
+}
+.benefits p{
+	font-size: 0.9vw !important
+}
+
+
+/*SUBMENUES*/
+.triangle{
+	position: absolute;
+    z-index: 10;
+    left: -2.9vw;
+}
+.triangle img{
+	width: 3vw !important;
+	cursor: pointer;
+}
+.triangle p{
+	color: black;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 6vw;
+    left: 1vw;
+    font-size: 1.2vw;
+    font-stretch: ultra-expanded;
+    cursor: pointer;
+    width: unset !important;
+	
+	-moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+}
+
+
+.additional-1{
+    color: black;
+    position: relative;
+    height: 31vw;
+    z-index: 2;
+    width: auto;
+    width: 56vw;
+    top: 0;
+    right: 0;
+	padding: 2vw;
+	
+	display: none
+}
+.additional-1 p{
+	margin: 0;
+    font-size: 0.8vw !important;
+    line-height: 1.2;
+}
+.additional-1 h3{
+	margin: 0;
+    font-size: 1.2vw;
+    line-height: 1.2;
+	text-align: left;
+}
+.additional-1 h2{
+	margin: 0;
+	font-size: 1.5vw;
+	font-weight: 400;
+	margin-bottom: 2vw;
+	position: absolute;
+    top: 2vw;
+}
+.content-third{
+	height: 90%;
+    width: 100%;
+    margin-top: 5%;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-third div{
+	width: 94%;
+}
+.images-third{
+	width: 6% !important;
+}
+.images-third img{
+	width: 2.2vw;
+}
+
+
+
+
+
+.collapsed1:before, .coll-1:before{
+	content: "\25BC";
+	cursor: pointer
+}
+.expanded1:after, .expa:after{
+	content: "\25B2";
+	cursor: pointer
+}
+.expanded-block{
+	background-color: black !important
+}
+.closed-block{
+	background-color: red !important
+}
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12{
+	position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 2vw;
+	display: none;
+}
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12{
+	top: 10vw;
+}
+.col-expanded1 p, .col-expanded2 p, .col-expanded3 p, .col-expanded4 p, .col-expanded5 p, .col-expanded6 p, .col-expanded7 p, .col-expanded8 p, .col-expanded9 p, .col-expanded10 p, .col-expanded11 p, .col-expanded12 p{
+	padding: 0 2vw 0 2vw;
+	text-align: left;
+}
+@media screen and (max-width: 900px){
+}

@@ -6,13 +6,13 @@ footer{
 }
 footer h5{
 	margin: 0;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     text-transform: uppercase;
     font-weight: 400;
 	margin-bottom: 1.5vw;
 }
 footer a{
-	font-size: 1.1vw;
+	font-size: 0.9vw;
 	display: -webkit-flex;
     display: flex;
 	align-items: center;
@@ -42,8 +42,23 @@ footer img{
     margin-left: auto;
     margin-right: auto;
 }
+.element-2 a{
+    color: #f5c118;
+    position: absolute;
+    margin-left: auto;
+    left: 0;
+    margin-right: auto;
+    right: 0;
+    width: 1.1vw;
+    z-index: 2;
+    top: 1vw;
+}
+.element-2 a:before{
+	content: "\25B2";
+	cursor: pointer
+}
 .f{
-	padding: 2vw;
+	padding-top: 1vw;
 }
 .contacts div:first-child{
 	margin-right: 4vw;
@@ -68,7 +83,7 @@ footer img{
 }
 .contact-us h3{
 	margin: 0;
-    font-size: 1.1vw;
+    font-size: 0.9vw;
     font-weight: 400;
 }
 .contact-us div{
@@ -89,9 +104,68 @@ footer img{
 	padding: 0.2vw
 }
 .comment{
-	height: 5vw;
+	height: 4vw;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
+.input button {
+    margin-top: 1vw;
+}
 @media screen and (max-width: 900px){
+.element-2{
+	display:none;
+}
+.footer {
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5vw;
+}
+.contacts{
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts div{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 3vw
+}
+footer h5 {
+    font-size: 4vw;
+    margin-bottom: 4vw;
+	margin-top: 3vw;
+}
+.contacts div:first-child {
+    margin-right: auto !important
+}
+.contacts li {
+    line-height: 1.5;
+}
+footer a {
+    font-size: 4vw;
+	justify-content: center;
+}
+footer img {
+    width: 4.5vw;
+}
+.socials li {
+    line-height: 2;
+    text-align: center;
+}
+.contact- {
+    width: 100%;
+}
+.contact-us h3 {
+    font-size: 3vw;
+    text-align: left;
+}
+.comment {
+    height: 15vw;
+}
+.input button {
+    margin-top: 5vw;
+}
 }

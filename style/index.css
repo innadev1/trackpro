@@ -1,3 +1,21 @@
+.header{
+	display: -webkit-flex;
+    display: flex;
+	width: 100%;
+	height: 45vw;
+	background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	justify-content: flex-end;
+    align-items: center;
+}
+.main-info{
+    width: 45vw;
+    text-align: center;
+    right: 12vw;
+    position: relative;
+    z-index: 2;
+}
 h2{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -142,7 +160,7 @@ h2{
 	margin-left:auto;
 	margin-right:auto;
 	width: 100%;
-	bottom: 13vw;
+	bottom: 11vw;
 }
 .element-1 img{
 	width: 15vw;
@@ -175,7 +193,7 @@ h2{
 /***/
 .yellow-div{
 	width: 100%;
-	height: 10vw;
+	height: 8vw;
 	background-color: #f5c118;
 	justify-content: center;
 	align-items: center;
@@ -185,7 +203,7 @@ h2{
 	margin: 0;
     text-transform: uppercase;
     color: black;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 500;
 }
 /***/
@@ -371,4 +389,126 @@ h2{
 
 
 @media screen and (max-width: 900px){
+.element-1, .element-2, .element-3{
+	display:none;
+}
+.yellow-div {
+    height: 15vw;
+}
+.yellow-div h3 {
+    font-size: 4.5vw;
+}
+.main {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.col-2 {
+    width: 100%;
+    height: 200vw;
+}
+.col-10{
+	width: 100%;
+}
+.in-4 p {
+    width: 90%;
+}
+p {
+    font-size: 3.5vw !important;
+}
+.in-4 h2 {
+    font-size: 5vw !important;
+}
+.in-5 h5 span {
+    font-size: 2.5vw;
+}
+.col-squares.col-2 {
+    width: 100%;
+    height: 100vw;
+    position: relative;
+}
+.col-squares div {
+    height: 50vw;
+}
+.in-8 h3 {
+    font-size: 3.5vw;
+}
+.in-9-div {
+    height: 12vw !important;
+}
+.in-9 h4 {
+    font-size: 4.5vw;
+}
+.in-9 h3 {
+    font-size: 2vw;
+}
+.col-10 {
+    height: 200vw;
+}
+.in-5 h5 {
+    font-size: 10vw;
+}
+.col-1 {
+    width: 100%;
+    height: 100vw;
+}
+h1 {
+    font-size: 4.5vw !important;
+    padding-top: 10vw !important;
+}
+h2 {
+    font-size: 3vw !important;
+}
+.functions {
+    height: 60vw;
+}
+.block img {
+    height: 8vw;
+}
+.block h3 {
+    font-size: 3vw;
+    height: 13vw;
+}
+.in-7 h3 {
+    font-size: 3.5vw;
+}
+.list {
+    margin-top: 10vw;
+}
+.side-block {
+    height: 10vw !important;
+}
+.side-block img {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 5vw;
+}
+.col-2 h5 {
+    font-size: 4vw;
+}
+.click {
+    top: 75vw;
+}
+.click img {
+    width: 5vw;
+}
+.side {
+    justify-content: center;
+    height: 35vw !important;
+    align-items: center;
+}
+.side img {
+    width: auto;
+    height: 10vw;
+    margin-right: 3vw;
+}
+.header {
+    height: 180vw;
+    background-position: 20%;
+}
+.main-info {
+    width: 100%;
+    right: unset;
+    top: 50vw;
+}
 }
