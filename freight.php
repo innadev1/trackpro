@@ -185,16 +185,20 @@
 					<b>GPS слежение</b> - подключение к габаритным огням и установка дополнительного аккумулятору<br>
 					Звуковая сирена - сигнализация в случае несанкционированного открытия дверей<br>
 					<b>Датчики:</b><br>
-					Открытия дверей<br>
-					Температуры<br>
-					Влажности<br>
+					<img class="expimg" src="img/icons/63.png"> Открытия дверей<br>
+					<img class="expimg" src="img/icons/60.png"> Температуры<br>
+					<img class="expimg" src="img/icons/62.png"> Влажности<br>
 					Подключение к стационарному оборудованию прицепа (Thermo King и т.д.)
 					</p>
 					<button>Узнать больше</button>
 				</div>
 			</div>
 			<div class="col black-t" id="second-add">
-				<div><img src="img/icons/32.png"></div>
+				<div class="flex icon-f">
+					<div><img src="img/icons/59.png"></div>
+					<div><img src="img/icons/32.png"></div>
+					<div><img src="img/icons/58.png"></div>
+				</div>
 				<h3>Контроль топлива</h3>
 				<a><h3 class="col-cursor2 coll-1"></h3></a>
 				<div class="col-expanded2 white">
@@ -208,9 +212,9 @@
 			</div>
 			<div class="col grey yellow-t" id="third-add">
 				<div class="flex icon-f">
-					<div><img src="img/icons/33.png"></div>
-					<div><img src="img/icons/34.png"></div>
-					<div><img src="img/icons/35.png"></div>
+					<div><img src="img/icons/61.png"></div>
+					<div><img src="img/icons/57.png"></div>
+					<div><img src="img/icons/66.png"></div>
 				</div>
 				<h3>Дополнительные</h3>
 				<a><h3 class="col-cursor3 coll-1"></h3></a>
@@ -427,6 +431,30 @@
 					Cчитывайте данные с тахографа удалённо. Подключение к тахографу позволяет считывать 
 					данные автоматически и в любое время, а система по анализу данных позволит вам получить
 					детальную информацию о работе водителя и уведомит о нарушениях.
+				</p>
+			</div>
+		</div>
+		
+		<div class="auto trailer">
+			<div class="capt-1"><h5>Звуковая сирена</h5></div>
+			<div class="text-1">
+				<p>
+					Ссигнализация в случае несанкционированного открытия дверей.
+				</p>
+			</div>
+			<div class="capt-2"><h5>GPS слежение</h5></div>
+			<div class="text-2">
+				<p>
+					Подключение к габаритным огням и установка дополнительного аккумулятору.
+				</p>
+			</div>
+			<div class="capt-3"><h5>Подключение к стационарному оборудованию прицепа (Thermo King и т.д.)</h5></div>
+			<div class="capt-4"><h5>Датчики:</h5></div>
+			<div class="text-4">
+				<p>
+					- Открытия дверей<br><br>
+					- Температуры<br><br>
+					- Влажности
 				</p>
 			</div>
 		</div>

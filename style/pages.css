@@ -214,6 +214,45 @@
     right: 31vw;
 }
 /**/
+.auto.bus{
+	background-image: url(../img/Shape-36.jpg);
+    background-size: contain;
+    background-size: 77%;
+    background-position-x: 32%;
+    background-position-y: 136%;
+}
+/**/
+.auto.trailer{
+	background-image: url(../img/Shape-35.jpg);
+    background-size: contain;
+    background-size: 77%;
+    background-position-x: 32%;
+    background-position-y: 136%;
+}
+.trailer .text-1{
+    width: 9.5vw;
+}
+.trailer .text-2{
+    top: 5.5vw;
+}
+.trailer .capt-3{
+	position: absolute;
+    left: 61vw;
+    width: 33vw;
+}
+.trailer .capt-4{
+    position: absolute;
+    top: 21vw;
+    left: 22vw;
+}
+.trailer .text-4{
+	position: absolute;
+    top: 24.5vw;
+    width: 9vw;
+    left: 24vw;
+    text-align: left;
+}
+/**/
 .auto.building{
 	background-image: url(../img/Shape-32.jpg);
 	background-size: contain;
@@ -307,7 +346,7 @@
 }
 /**/
 .auto.motorcycle{
-	background-image: url(../img/Shape-34.jpg) !important;
+	background-image: url(../img/Shape-34.jpg);
     background-size: contain;
     background-size: 61%;
     background-position-x: 32%;
@@ -332,22 +371,25 @@
 }
 /*COLORS FOR BACKGROUNDS AND FONTS*/
 .yellow{
-	background-color: #f5c118;
+	background-color: #f5c118 !important;
 }
 .grey{
 	background-color: #555555;
 }
 .white{
-	background-color: white;
+	background-color: white !important;
 }
-.black-t{
-	color: black;
+.black-t, .black-t h3{
+	color: black !important;
 }
 .yellow-t{
 	color: #f5c118;
 }
 .white-t{
 	color: white !important
+}
+.enter{
+	padding-bottom: 3vw;
 }
 
 /*NEW BLOCK*/
@@ -369,7 +411,7 @@
     padding: 0 !important;
 }
 .ag-st img{
-	width: 100%;
+	width: auto;
     height: 100%;
     position: relative;
     bottom: 2vw;
@@ -508,5 +550,142 @@
 	padding: 0 2vw 0 2vw;
 	text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+.expimg{
+	height: 1.5vw;
+	width: unset !important;
+	margin: 0 !important
+}
+
+
 @media screen and (max-width: 900px){
+.animation, .second{
+	display: none !important;
+}
+#header {
+    height: 100vw;
+}
+.info-inside img {
+    height: 15vw;
+    margin-bottom: 5vw;
+}
+.info-inside h2 {
+    font-size: 6vw;
+    margin-bottom: 10vw;
+}
+.col-flex {
+    height: 110vw;
+}
+.col-flex .first {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.col-flex .first p {
+    top: 27vw;
+}
+p {
+    font-size: 4vw !important;
+}
+.benefits {
+    flex-direction: column;
+}
+.ag-st {
+    height: 60vw;
+    width: 70%;
+    margin: auto;
+}
+.header-line {
+    height: 30vw;
+}
+.header-line h3 {
+    font-size: 6vw;
+}
+.benefits p {
+    font-size: 4vw !important;
+    margin-bottom: 5vw;
+}
+.first-height {
+    height: auto;
+}
+.column {
+    width: 100%;
+    flex-direction: column;
+}
+.col {
+    height: auto;
+    width: 100%;
+}
+.col img {
+    width: 15vw;
+    margin: 2vw;
+	margin-top: 5vw;
+}
+.col h3 {
+    font-size: 5vw;
+}
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12 {
+    top: 0vw;
+}
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12 {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 2vw;
+    display: none;
+}
+
+
+
+
+
+
+/*AUTO DIAGRAMM*/
+.auto{
+	background-image: none !important;
+}
+.auto h5{
+	margin: 5vw;
+	font-size: 5vw;
+}
+.text-1,
+.text-2,
+.text-3,
+.capt-1,
+.capt-2,
+.capt-3,
+.capt-4,
+.text-4,
+.capt-5,
+.text-5,
+.capt-6,
+.text-6,
+.capt-7,
+.text-7{
+	position: relative !important;
+    top: unset !important;
+    right: unset !important;
+	left: unset !important;
+	width: 80% !important;
+	margin: auto;
+	text-align: center !important
+}
+
+
+.auto {
+    height: auto !important;
+}
+.motorcycles .col {
+    width: 100% !important;
+}
 }

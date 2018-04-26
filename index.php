@@ -24,8 +24,10 @@
 
 				<div class="flex functions">
 					<div class="block bl1">
-						<img src="img/icons/6.png">
-						<h3><?php echo $language[$lang]['text5'] ?></h3>
+						<a href="person.php">
+							<img src="img/icons/6.png">
+							<h3><?php echo $language[$lang]['text5'] ?></h3>
+						</a>
 					</div>
 					<div class="block bl2">
 						<a href="motorcycle.php">
@@ -46,12 +48,16 @@
 						</a>
 					</div>
 					<div class="block bl5">
-						<img src="img/icons/7.png">
-						<h3><?php echo $language[$lang]['text9'] ?></h3>
+						<a href="bus.php">
+							<img src="img/icons/7.png">
+							<h3><?php echo $language[$lang]['text9'] ?></h3>
+						</a>
 					</div>
 					<div class="block bl6">
-						<img src="img/icons/3.png">
-						<h3><?php echo $language[$lang]['text10'] ?></h3>
+						<a href="ship.php">
+							<img src="img/icons/3.png">
+							<h3><?php echo $language[$lang]['text10'] ?></h3>
+						</a>
 					</div>
 					<div class="block bl7">
 						<a href="building.php">
@@ -60,12 +66,16 @@
 						</a>
 					</div>
 					<div class="block bl8">
-						<img src="img/icons/2.png">
-						<h3><?php echo $language[$lang]['text12'] ?></h3>
+						<a href="train.php">
+							<img src="img/icons/2.png">
+							<h3><?php echo $language[$lang]['text12'] ?></h3>
+						</a>
 					</div>
 					<div class="block bl8">
-						<img src="img/icons/personals.png">
-						<h3><?php echo $language[$lang]['text40'] ?></h3>
+						<a href="privat.php">
+							<img src="img/icons/personals.png">
+							<h3><?php echo $language[$lang]['text40'] ?></h3>
+						</a>
 					</div>
 				</div>
 				
