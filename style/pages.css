@@ -159,6 +159,30 @@
     font-size: 1.5vw;
     font-weight: 400;
 }
+
+.text-line{
+	padding: 3vw 0;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+.text-line h3{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 400;
+	margin: 2.5vw;
+	font-weight: 600;
+}
+.text-line p{
+	margin: 0 ;
+	font-size: 1vw;
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 1vw;
+}
 /*AUTO DIAGRAMM*/
 .auto{
 	background-image: url(../img/Shape-31.jpg);
@@ -234,6 +258,11 @@
 }
 .trailer .text-2{
     top: 5.5vw;
+	left: 40vw;
+}
+.trailer .capt-2{
+	position: absolute;
+	left: 40vw
 }
 .trailer .capt-3{
 	position: absolute;
@@ -248,7 +277,7 @@
 .trailer .text-4{
 	position: absolute;
     top: 24.5vw;
-    width: 9vw;
+    width: auto;
     left: 24vw;
     text-align: left;
 }
@@ -405,13 +434,16 @@
 	text-align: center;
 	padding: 1vw;
 }
+.benefits img{
+	width: 2.8vw;
+}
 .ag-st{
 	height: 10vw;
     width: 15%;
     padding: 0 !important;
 }
 .ag-st img{
-	width: auto;
+	width: auto !important;
     height: 100%;
     position: relative;
     bottom: 2vw;
@@ -536,17 +568,17 @@
 .closed-block{
 	background-color: red !important
 }
-.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12{
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12, .col-expanded13, .col-expanded14{
 	position: absolute;
     width: 100%;
     z-index: 10;
     padding-bottom: 2vw;
 	display: none;
 }
-.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12{
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12, .col-expanded13, .col-expanded14{
 	top: 10vw;
 }
-.col-expanded1 p, .col-expanded2 p, .col-expanded3 p, .col-expanded4 p, .col-expanded5 p, .col-expanded6 p, .col-expanded7 p, .col-expanded8 p, .col-expanded9 p, .col-expanded10 p, .col-expanded11 p, .col-expanded12 p{
+.col-expanded1 p, .col-expanded2 p, .col-expanded3 p, .col-expanded4 p, .col-expanded5 p, .col-expanded6 p, .col-expanded7 p, .col-expanded8 p, .col-expanded9 p, .col-expanded10 p, .col-expanded11 p, .col-expanded12 p, .col-expanded13 p, .col-expanded14 p{
 	padding: 0 2vw 0 2vw;
 	text-align: left;
 }
@@ -569,7 +601,7 @@
 
 
 @media screen and (max-width: 900px){
-.animation, .second{
+.animation, .triangle{
 	display: none !important;
 }
 #header {
@@ -584,12 +616,12 @@
     margin-bottom: 10vw;
 }
 .col-flex {
-    height: 110vw;
+    height: auto;
 }
 .col-flex .first {
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 110vw;
 }
 .col-flex .first p {
     top: 27vw;
@@ -597,6 +629,42 @@
 p {
     font-size: 4vw !important;
 }
+.col-flex .second {
+    width: auto;
+    height: 180vw;
+    text-align: center;
+    color: black;
+    position: relative !important;
+    top: unset;
+    right: unset;
+}
+.col-flex .second h2, .content-second {
+    display: none;
+}
+.additional-1 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.c-3 {
+    width: 100%;
+    border: 0.1vw solid #f5c118;
+    height: auto;
+    padding: 5vw 0;
+}
+.additional-1 h3 {
+    font-size: 5vw;
+}
+.content-third img {
+    width: 8vw !important;
+    height: 8vw !important;
+}
+.additional-1 p {
+    font-size: 3vw !important;
+}
+
+
+
 .benefits {
     flex-direction: column;
 }
@@ -634,10 +702,10 @@ p {
 .col h3 {
     font-size: 5vw;
 }
-.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12 {
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded10, .col-expanded11, .col-expanded12, .col-expanded13, .col-expanded14 {
     top: 0vw;
 }
-.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12 {
+.col-expanded1, .col-expanded2, .col-expanded3, .col-expanded4, .col-expanded5, .col-expanded6, .col-expanded7, .col-expanded8, .col-expanded9, .col-expanded10, .col-expanded11, .col-expanded12, .col-expanded13, .col-expanded14 {
     position: relative;
     width: 100%;
     z-index: 10;
@@ -688,4 +756,30 @@ p {
 .motorcycles .col {
     width: 100% !important;
 }
+.benefits img{
+	width: 15vw;
+}
+
+
+
+.text-line{
+	padding: 3vw 0;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.text-line h3{
+    text-align: center;
+    margin: 0;
+    font-size: 6vw;
+    font-weight: 400;
+}
+.text-line p{
+	margin: 0 ;
+	font-size: 3.5vw;
+	text-align: center;
+	width: 90%;
+	margin: auto
+}
+
 }

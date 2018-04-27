@@ -4,7 +4,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title></title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>	
-    </head>
+		
+		<style>
+		@media screen and (max-width: 900px){
+			.second{display:none !important}
+		}
+		</style>
+		
+	</head>
 
 	<body>
 	
@@ -19,6 +26,7 @@
 		
 		<div class="col-flex">
 			<div class="first">
+				<img class="animation" src="img/object8.png">
 				<p>
 					TrackPro - это современная система для упрaавления автопарком. TrackPro позволяет хранить и обрабатывать всю 
 					информацию о работе автопарка в одном, удобном месте, и помогает принимать оперативные и обоснованные 
@@ -30,15 +38,15 @@
 			
 				<h2>Системы слежения</h2>
 				<div class="content-second">
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/18.png"></div>
 					<div><p>Отслеживайте местонахождения в режиме Online</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/19.png"></div>
 					<div><p>Совершайте и принимайте экстренные звонки</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/17.png"></div>
 					<div><p>Получайте уведомление в случае падения</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/30.png"></div>
 					<div><p>Тревожная кнопка ‘SOS’ с указанием местонахождения</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/51.png"></div>
 					<div><p>Простое и понятное использование</p></div>
 				</div>
 		
@@ -48,7 +56,7 @@
 		
 		<div class="flex column first-height">
 			<div class="col yellow" id="first-add">
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/72.png"></div>
 				<h3>iBeacons</h3>
 				<a><h3 class="col-cursor1 coll-1"></h3></a>
 				<div class="col-expanded1 yellow">
@@ -59,7 +67,7 @@
 				</div>
 			</div>
 			<div class="col black-t" id="second-add">
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/73.png"></div>
 				<h3>Подсчет посетителей </h3>
 				<a><h3 class="col-cursor2 coll-1"></h3></a>
 				<div class="col-expanded2 white">
@@ -69,7 +77,7 @@
 				</div>
 			</div>
 			<div class="col grey yellow-t" id="third-add">
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/74.png"></div>
 				<h3>Мобильные сотрудники </h3>
 				<a><h3 class="col-cursor3 coll-1"></h3></a>
 				<div class="col-expanded3 grey">

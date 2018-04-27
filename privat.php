@@ -19,7 +19,7 @@
 		
 		<div class="col-flex">
 			<div class="first">
-				
+				<img class="animation" src="img/object8.png">
 				<p>
 					TrackPro - это современная система для упрaавления автопарком. TrackPro позволяет хранить и обрабатывать всю 
 					информацию о работе автопарка в одном, удобном месте, и помогает принимать оперативные и обоснованные 
@@ -38,9 +38,9 @@
 				<div class="content-second">
 					<div class="images-second"><img src="img/icons/39.png"></div>
 					<div><p>Слежение онлайн</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/82.png"></div>
 					<div><p>Оповещение при эвакуации или ударе автомобиля</p></div>
-					<div class="images-second"><img src="img/icons/.png"></div>
+					<div class="images-second"><img src="img/icons/83.png"></div>
 					<div><p>Подключение к сигнализации</p></div>
 					<div class="images-second"><img src="img/icons/31.png"></div>
 					<div><p>Низкое потребление энергии</p></div>
@@ -66,7 +66,7 @@
 					</div>
 					<div class="c-3">
 						<div>
-							<img src="img/icons/.png">
+							<img src="img/icons/82.png">
 							<h3>Оповещение при эвакуации или ударе автомобиля</h3>
 						</div>
 						<p>
@@ -75,14 +75,14 @@
 					</div>
 					<div class="c-3">
 						<div>
-							<img src="img/icons/.png">
+							<img src="img/icons/83.png">
 							<h3>Подключение к сигнализации</h3>
 						</div>
 						<p>Отправка оповещения о срабатывании сигнализации на телефон.</p>
 					</div>
 					<div class="c-3">
 						<div>
-							<img src="img/icons/.png">
+							<img src="img/icons/31.png">
 							<h3>Низкое потребление энергии</h3>
 						</div>
 						<p>
@@ -175,32 +175,32 @@
 			</div>
 		</div>
 		
-		<div class="header-line flex white black-t">
+		<div class="header-line flex yellow black-t">
 			<h3>Персональный трекер</h3>
 		</div>
 		
-		<div class="benefits flex white black-t">
+		<div class="benefits flex yellow black-t">
 			<div class="ag-st">
 				<img src="img/Capture.jpg">
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/18.png"></div>
 				<p>Отслеживайте местонахождения в режиме Online</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/19.png"></div>
 				<p>Совершайте и принимайте экстренные звонки</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/17.png"></div>
 				<p>Получайте уведомление в случае падения</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/30.png"></div>
 				<p>Тревожная кнопка ‘SOS’ с указанием местонахождения</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/75.png"></div>
 				<p>Простое и понятное использование</p>
 			</div>
 		</div>
@@ -211,19 +211,19 @@
 		
 		<div class="benefits flex">
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/13.png"></div>
 				<p>Питомца GPS-ошейником вы никогда не потеряете - его местоположение всегда видно в системе</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/84.png"></div>
 				<p>Устройство подбирается индивидуально под каждый тип животного - исходя из его размеров</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/85.png"></div>
 				<p>Получайте уведомления, если Ваш питомец вышел за пределы определенной территории</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/86.png"></div>
 				<p>Устройство имеет встроенный аккумулятор и не боится воды и пыли</p>
 			</div>
 		</div>
@@ -240,23 +240,23 @@
 				<img src="img/tracker-handlebar.jpg">
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/76.png"></div>
 				<p>В любое время определите местонахождение велосипеда, отправив простое SMS сообщение</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/77.png"></div>
 				<p>Встроенный аккумулятор с возможностью перезарядки. Время работы от 1 до 3 месяцев</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/78.png"></div>
 				<p>Оповещение в случае несанкционированного движения</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/79.png"></div>
 				<p>Удобная установка и простое использование</p>
 			</div>
 			<div>
-				<div><img src="img/icons/.png"></div>
+				<div><img src="img/icons/80.png"></div>
 				<p>Сигнал СОС и датчик падения</p>
 			</div>
 		</div>

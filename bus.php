@@ -178,9 +178,9 @@
 		<div class="flex column first-height motorcycles">
 			<div class="col yellow" id="first-add">
 				<div class="flex icon-f">
-					<div><img src="img/icons/.png"></div>
-					<div><img src="img/icons/.png"></div>
-					<div><img src="img/icons/.png"></div>
+					<div><img src="img/icons/67.png"></div>
+					<div><img src="img/icons/44.png"></div>
+					<div><img src="img/icons/68.png"></div>
 				</div>
 				<h3>Контроль топлива</h3>
 				<a><h3 class="col-cursor1 coll-1"></h3></a>
@@ -195,9 +195,9 @@
 			</div>
 			<div class="col grey yellow-t" id="second-add">
 				<div class="flex icon-f">
-					<div><img src="img/icons/.png"></div>
-					<div><img src="img/icons/.png"></div>
-					<div><img src="img/icons/.png"></div>
+					<div><img src="img/icons/69.png"></div>
+					<div><img src="img/icons/70.png"></div>
+					<div><img src="img/icons/71.png"></div>
 				</div>
 				<h3>Видеонаблюдение</h3>
 				<a><h3 class="col-cursor2 coll-1"></h3></a>
