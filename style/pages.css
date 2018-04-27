@@ -631,7 +631,7 @@ p {
 }
 .col-flex .second {
     width: auto;
-    height: 180vw;
+    height: auto;
     text-align: center;
     color: black;
     position: relative !important;
